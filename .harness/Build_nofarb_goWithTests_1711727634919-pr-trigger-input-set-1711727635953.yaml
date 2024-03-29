@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_nofarb_goWithTests_1711727634919-pr-trigger-input-set
+  identifier: Build_nofarb_goWithTests_1711727634919prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Nofar
+  pipeline:
+    identifier: Build_nofarb_goWithTests_1711727634919
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
