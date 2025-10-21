@@ -33,3 +33,6 @@ pipeline:
             spec: {}
             type: Cloud
         type: CI
+        sendGitStatus:
+          enabled: true
+          name: Nofar-test
